@@ -120,3 +120,5 @@ $response = $XeroOAuth->request( "POST", $url, [], $invoices_xml->asXML());
 
 if($response['code'] === 200) echo "Upload successful";
 else echo "Upload failed";
+
+// var_dump ($response);
