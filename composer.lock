@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "51669db4258bc7d42e41a0fa09106f1c",
+    "content-hash": "1937c168353a5fe08cee8eda62af0614",
+    "packages": [
+        {
+            "name": "xero/xerooauth-php",
+            "version": "v0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/XeroAPI/XeroOAuth-PHP.git",
+                "reference": "a3bbf6a58b8025c1a14a8221d3358e3ecc53160d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/XeroAPI/XeroOAuth-PHP/zipball/a3bbf6a58b8025c1a14a8221d3358e3ecc53160d",
+                "reference": "a3bbf6a58b8025c1a14a8221d3358e3ecc53160d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-openssl": "*",
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP class for the Xero APIs",
+            "homepage": "https://github.com/XeroAPI/XeroOAuth-PHP",
+            "keywords": [
+                "Accounting",
+                "api",
+                "oauth",
+                "xero"
+            ],
+            "time": "2017-01-10 19:47:35"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "Xero/xerooauth-php": "^0.8.0"
+    }
+}
